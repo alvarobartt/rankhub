@@ -117,7 +117,7 @@ if __name__ == '__main__':
     lines = ''
 
     for index, row in df.iterrows():
-        image_html = "<img src='" + str(row['avatar_url']) + "&s=64 width='64'>"
+        image_html = "<img src='" + str(row['avatar_url']) + "&s=64' width='64'>"
 
         line = '| ' + str(index) + \
                ' | [' + str(row['username']) + '](' + str(row['username_url']) + ')' + \
