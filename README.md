@@ -14,11 +14,11 @@ amount of public contributions just between 01/01/2019 until the current date 21
 
 | Rank | User | Avatar | Public Contributions | Most Used Language | Used Languages |
 |------|------|--------|----------------------|--------------------|----------------|
-| 1 | <img src='https://avatars0.githubusercontent.com/u/4302127?v=4&s=64' width='64'> | [Emirodgar](https://github.com/Emirodgar) | 2187 | HTML | HTML, JavaScript, CSS |
-| 2 | <img src='https://avatars1.githubusercontent.com/u/32566274?v=4&s=64' width='64'> | [tomhendra](https://github.com/tomhendra) | 851 | JavaScript | JavaScript, CSS, HTML |
-| 3 | <img src='https://avatars2.githubusercontent.com/u/2938045?v=4&s=64' width='64'> | [cbjuan](https://github.com/cbjuan) | 360 | Python | JavaScript, HTML, Jupyter Notebook, Python, Shell |
-| 4 | <img src='https://avatars3.githubusercontent.com/u/36760800?v=4&s=64' width='64'> | [alvarob96](https://github.com/alvarob96) | 290 | Jupyter Notebook | Jupyter Notebook, Python |
-| 5 | <img src='https://avatars3.githubusercontent.com/u/33935947?v=4&s=64' width='64'> | [JParzival](https://github.com/JParzival) | 216 | Jupyter Notebook | JavaScript, Python, Jupyter Notebook, Java, TypeScript, R, PHP, HTML |
+| 1 | <img src='https://avatars0.githubusercontent.com/u/4302127?v=4&s=64 width='64'> | [Emirodgar](https://github.com/Emirodgar) | 2187 | HTML| HTML, JavaScript, CSS |
+| 2 | <img src='https://avatars1.githubusercontent.com/u/32566274?v=4&s=64 width='64'> | [tomhendra](https://github.com/tomhendra) | 851 | JavaScript| JavaScript, CSS, HTML |
+| 3 | <img src='https://avatars2.githubusercontent.com/u/2938045?v=4&s=64 width='64'> | [cbjuan](https://github.com/cbjuan) | 360 | Python| JavaScript, HTML, Jupyter Notebook, Python, Shell |
+| 4 | <img src='https://avatars3.githubusercontent.com/u/36760800?v=4&s=64 width='64'> | [alvarob96](https://github.com/alvarob96) | 293 | Jupyter Notebook| Jupyter Notebook, Python |
+| 5 | <img src='https://avatars3.githubusercontent.com/u/33935947?v=4&s=64 width='64'> | [JParzival](https://github.com/JParzival) | 216 | Jupyter Notebook| JavaScript, Python, Jupyter Notebook, Java, TypeScript, R, PHP, HTML |
 
 This is just the leading Top 5 GitHub users from the generated ranking, so the complete ranking 
 can be found in [salamanca/](https://github.com/alvarob96/rankhub/blob/master/salamanca) in both
