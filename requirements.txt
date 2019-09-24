@@ -1,0 +1,4 @@
+requests==2.22.0
+setuptools==41.2.0
+investpy==0.9.3
+pandas==0.25.1

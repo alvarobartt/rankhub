@@ -1,4 +1,9 @@
-# rankhub - is a Python package to get GitHub users rankings
+# rankhub - is a Python package to generate GitHub users rankings
+
+[![Python Version](https://img.shields.io/pypi/pyversions/rankhub.svg)](https://pypi.org/project/rankhub/)
+[![PyPi Version](https://img.shields.io/pypi/v/rankhub.svg)](https://pypi.org/project/rankhub/)
+[![Package Status](https://img.shields.io/pypi/status/rankhub.svg)](https://pypi.org/project/rankhub/)
+[![Build Status](https://img.shields.io/travis/alvarob96/rankhub/master.svg?label=Travis%20CI&logo=travis&logoColor=white)](https://travis-ci.org/alvarob96/rankhub)
 
 ## Introduction
 
