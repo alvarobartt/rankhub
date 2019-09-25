@@ -48,7 +48,25 @@ class Rankhub:
                 username = user['login']
                 username_url = user['html_url']
                 avatar_url = user['avatar_url']
-                location = user['location']
+
+                user_url = user['url']
+
+                header = {
+                    'Authorization': 'token ' + self.oauth_token,
+                    'User-Agent': get_random(),
+                }
+
+                req = requests.get(url=user_url, headers=header)
+                status_code = req.status_code
+
+                while status_code != 200:
+                    time.sleep(1)
+                    req = requests.get(url=url, headers=header)
+                    status_code = req.status_code
+
+                user_details = req.json()
+
+                location = user_details['location']
 
                 public_contributions = 0
                 languages = dict()
