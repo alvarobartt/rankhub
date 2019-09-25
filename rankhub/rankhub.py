@@ -48,6 +48,7 @@ class Rankhub:
                 username = user['login']
                 username_url = user['html_url']
                 avatar_url = user['avatar_url']
+                location = user['location']
 
                 public_contributions = 0
                 languages = dict()
@@ -127,6 +128,7 @@ class Rankhub:
                     'username': username,
                     'username_url': username_url,
                     'avatar_url': avatar_url,
+                    'location': location,
                     'public_contributions': public_contributions,
                     'top_language': top_language,
                     'used_languages': used_languages,

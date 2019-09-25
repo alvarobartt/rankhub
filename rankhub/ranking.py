@@ -11,8 +11,8 @@ def ranking_to_json(ranking):
 
 
 def ranking_to_md(ranking):
-    rows_desc = '| Rank | User | Avatar | Public Contributions | Most Used Language | Used Languages |\n' \
-                '|------|------|--------|----------------------|--------------------|----------------|\n'
+    rows_desc = '| Rank | User | Avatar | Location | Public Contributions | Most Used Language | Used Languages |\n' \
+                '|------|------|--------|----------|----------------------|--------------------|----------------|\n'
 
     rows_ranks = ''
 
@@ -22,6 +22,7 @@ def ranking_to_md(ranking):
         row_rank = '| ' + str(index) + \
                    ' | [' + str(row['username']) + '](' + str(row['username_url']) + ')' + \
                    ' | ' + str(image_html) + \
+                   ' | ' + str(row['location']) + \
                    ' | ' + str(row['public_contributions']) + \
                    ' | ' + str(row['top_language']) + \
                    ' | ' + str(row['used_languages']) + ' |\n'
