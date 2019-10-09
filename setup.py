@@ -24,10 +24,13 @@ setup(
     install_requires=[
         'requests==2.22.0',
         'setuptools==41.2.0',
-        'investpy==0.9.3',
         'pandas==0.25.1'
     ],
-    data_files=[],
+    data_files=[
+        ('user_agents', [
+            'rankhub/resources/user_agent_list.txt'
+        ])
+    ],
     include_package_data=True,
     classifiers=[
         "Development Status :: 3 - Alpha",

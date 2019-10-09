@@ -11,7 +11,7 @@ import time
 import datetime
 import operator
 
-from investpy.user_agent import get_random
+from rankhub.user_agent import get_random
 
 
 class Rankhub:
@@ -66,7 +66,10 @@ class Rankhub:
 
                 user_details = req.json()
 
-                location = user_details['location']
+                if 'location' in user_details:
+                    location = user_details['location']
+                else:
+                    location = None
 
                 public_contributions = 0
                 languages = dict()
@@ -118,7 +121,14 @@ class Rankhub:
                                 continue
                             else:
                                 if req.json():
-                                    weeks = req.json()[0]['weeks']
+                                    weeks = None
+
+                                    for res in req.json():
+                                        if res['author']['login'] == username:
+                                            weeks = res['weeks']
+
+                                    if weeks is None:
+                                        break
 
                                     for week in weeks:
                                         date_value = datetime.datetime.fromtimestamp(week['w'])

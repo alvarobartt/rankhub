@@ -7,7 +7,7 @@ import pytest
 
 import os
 
-from rankhub.rankhub import Rankhub
+from rankhub.github import Rankhub
 from rankhub.ranking import ranking_to_md, ranking_to_json
 
 

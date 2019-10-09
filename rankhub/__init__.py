@@ -6,4 +6,4 @@
 __author__ = 'Alvaro Bartolome <alvarob96@usal.es>'
 __version__ = '0.0.1'
 
-from rankhub.rankhub import Rankhub
+from rankhub.github import Rankhub
